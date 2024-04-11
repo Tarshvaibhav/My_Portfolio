@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarsh Vaibhav - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Tarsh Vaibhav Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Project</a></li>
+                    <li><a href="#">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My Name is <span class="purple">Tarsh Vaibhav</span>
+                <div>and I am a Passionate</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="My_Photo.png" alt="My Photo">
+            </div>
+        </section>
+        <hr />
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="experience-item">
+                    <h2>Frontend Developer Intern (Remote)</h2>
+                    <p>Alphaveric - Background Screening & Technology Hiring</p>
+                    <p>August 2021 - October 2021</p>
+                    <ul>
+                        <li>Built a login portfolio using HTML and CSS for customers and the tie up company to fill their details for background verification and using JavaScript send an email to the customers and give a link after clicking the link a new web page opens and shares the details.</li>
+                        <li>Collaborated effectively with team members to design and implement solutions, sharing knowledge and expertise to achieve project goals.</li>
+                    </ul>
+                </div>
+                <!-- Add more experience items as needed -->
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed("#element", {
+            strings: [
+                "Web Developer",
+                "Graphics Designer",
+                "Coder",
+                "Web Designer"
+            ],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+</html>
